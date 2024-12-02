@@ -65,13 +65,17 @@ CLASS PLAYER
 
 CLASS ZOMBS
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Alive 
 - METHODS
-  - LIST METHODS HERE
+  - Spawn (spawns at the top of the page)
+  - Move (moves down to the player)
 
 CLASS PROJECTILE
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - InAir (if the bullet is travelling)
+  - InScreen (if the bullet is still on the screen, used to despawn missed bullets)
+  - InBullet (if bullet overlaps with enemy, will kill itslef and enemy)
 - METHODS
-  - LIST METHODS HERE
+  - Move (moves in direction fired)
+  - Check (checks the status it be at)
 
