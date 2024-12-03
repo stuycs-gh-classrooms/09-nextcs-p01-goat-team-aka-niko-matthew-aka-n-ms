@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PX83n--N)
+ [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PX83n--N)
 # NeXtCS Project 01
 ### Name0: Niko Rodriguez
 ### Name1: Matthew Ciu 
@@ -58,23 +58,23 @@ What classes will you be creating for this project? Include the instance variabl
 CLASS PLAYER
 - Instance variables:
   - Bullets
-  - Alive / Dead
+  - Boolean Alive / Dead
 - METHODS
   - FIRE (fires gun)
   - Move (moves left and right)
 
 CLASS ZOMBS
 - Instance variables:
-  - Alive 
+  - Boolean Alive 
 - METHODS
   - Spawn (spawns at the top of the page)
   - Move (moves down to the player)
 
 CLASS PROJECTILE
 - Instance variables:
-  - InAir (if the bullet is travelling)
-  - InScreen (if the bullet is still on the screen, used to despawn missed bullets)
-  - InBullet (if bullet overlaps with enemy, will kill itslef and enemy)
+  - Boolean InAir (if the bullet is travelling)
+  - Boolean InScreen (if the bullet is still on the screen, used to despawn missed bullets)
+  - Boolean InBullet (if bullet overlaps with enemy, will kill itslef and enemy)
 - METHODS
   - Move (moves in direction fired)
   - Check (checks the status it be at)
