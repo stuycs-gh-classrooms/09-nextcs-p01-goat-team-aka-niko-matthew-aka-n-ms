@@ -65,7 +65,11 @@ CLASS PLAYER
 
 CLASS ZOMBS
 - Instance variables:
-  - Boolean Alive 
+  - Boolean Alive
+  - Int Speed
+  - Int Size
+  - Int xPos (static)
+  - Int yPos (dynamic)
 - METHODS
   - Spawn (spawns at the top of the page)
   - Move (moves down to the player)
