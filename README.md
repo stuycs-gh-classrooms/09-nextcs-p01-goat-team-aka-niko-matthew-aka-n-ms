@@ -57,8 +57,10 @@ What classes will you be creating for this project? Include the instance variabl
 
 CLASS PLAYER
 - Instance variables:
-  - Bullets
+  - int Bullets
   - Boolean Alive / Dead
+  - int xpos
+  - int ypos
 - METHODS
   - FIRE (fires gun)
   - Move (moves left and right)
