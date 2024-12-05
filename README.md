@@ -33,10 +33,10 @@ Timer, Enemy Projectiles, Menu (start page), Levels, Mouse aiming / firing, Ammo
 How will you be using arrays in this project?
 
 1D Array:
-- Enemy placement 
+- Amo Reloading 
 
 2D Array:
-- Enemy movement 
+- Enemy Placement
 
 
 ### Controls
